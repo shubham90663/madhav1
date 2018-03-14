@@ -1,0 +1,11 @@
+
+language: cpp
+compiler: gcc
+dist: trusty
+
+
+
+
+script: 
+  - g++ main.cpp -o travis_gcc_cpp17
+  - ./travis_gcc_cpp17
