@@ -4,8 +4,6 @@ compiler: gcc
 dist:  trusty
 
 
-
-
 script: 
   - g++ function_overloading.cpp -o travis_gcc_cpp17
   - ./travis_gcc_cpp17
