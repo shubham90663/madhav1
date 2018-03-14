@@ -13,7 +13,7 @@ class Vehicle
         int breaking(int);
         int acceleration(int);
         int acceleration();
-        bool lightening(bool,bool,bool);
+        
         bool lightening(bool,bool,bool,bool);
         void display();
         Vehicle(int sp)
